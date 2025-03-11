@@ -3,24 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>Image Gallery (Horizontal scroll)</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ================fontawesome link============== -->
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-025281ccfe06a9d63cd35694641e07d3.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-light.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-light.css"
+      >
+
+      <!-- ================fontawesome link============== -->
   </head>
   <body>
-    <div class="app">
-      <h1>Simple Quiz</h1>
-      <div class="quiz">
-        <h2 id="question">Question goes hare</h2>
-        <div id="answer_buttons">
-          <button class="btn">Answer 1</button>
-          <button class="btn">Answer 2</button>
-          <button class="btn">Answer 3</button>
-          <button class="btn">Answer 4</button>
-        </div>
-        <button id="next_btn">Next</button>
+
+    <div class="gallery_wrap">
+     
+     <a href="#" id="back_btn"><i class="fa-solid fa-circle-arrow-left"></i></a>
+     <div class="gallery">
+      <div>
+        <span><img src="images/maldives1.jpg" alt=""></span>
+        <span><img src="images/mount_fuji.jpg" alt=""></span>
+        <span><img src="images/singapore_flowerdom.jpg" alt=""></span>
+       
+      </div>
+      <div>
+        <span><img src="images/sidney.jpg" alt=""></span>
+        <span><img src="images/london_eye.jpg" alt=""></span>
+        <span><img src="images/switzerland.jpg" alt=""></span>
       </div>
     </div>
+     <a href="#" id="next_btn"><i class="fa-solid fa-circle-arrow-right"></i></a>
+    </div>
+    
+    
 
-    <script src="js/project13.js"></script>
+    <script src="js/project14.js"></script>
   </body>
 </html>
